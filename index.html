@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nova Music — تحميل التطبيق</title>
+  <meta name="description" content="Nova Music: شغّل موسيقاك المحلية، نظّم مكتبتك وقوائم التشغيل، ونزّل الموسيقى — تطبيق سطح مكتب لنظام Windows.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2322c55e'/%3E%3Cpath d='M26 44V24l18-4v20' stroke='%230b0f0d' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='22' cy='44' r='5' fill='%230b0f0d'/%3E%3Ccircle cx='40' cy='40' r='5' fill='%230b0f0d'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-icon">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M26 44V24l18-4v20" stroke="currentColor" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="22" cy="44" r="5" fill="currentColor"/><circle cx="40" cy="40" r="5" fill="currentColor"/></svg>
+        </span>
+        <span class="brand-name">Nova Music</span>
+      </a>
+      <nav class="header-nav">
+        <a href="#features">المميزات</a>
+        <a href="#how">طريقة الاستخدام</a>
+        <a href="#download">التحميل</a>
+      </nav>
+      <a class="btn btn--small btn--primary" href="#download">نزّل الآن</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="pill">الإصدار <b id="version-label">1.0.1</b> • لنظام Windows</span>
+          <h1>موسيقاك، <span class="accent">كلها في مكان واحد.</span></h1>
+          <p class="lead">
+            تطبيق سطح مكتب سريع لتنظيم موسيقاك المحلية، إنشاء قوائم التشغيل،
+            والبحث والتنزيل — بواجهة عربية كاملة وثلاثة مظاهر.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn--primary btn--large" id="download-btn" href="#" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              تحميل لـ Windows
+            </a>
+            <a class="btn btn--ghost btn--large" href="#how">كيف أستخدم التطبيق؟</a>
+          </div>
+          <ul class="meta-strip">
+            <li>Windows 10 / 11 — 64-bit</li>
+            <li>حجم التثبيت ≈ 112 MB</li>
+            <li class="downloads-stat" id="downloads-stat" hidden>
+              <b id="downloads-count">0</b> تنزيل
+            </li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="mock">
+            <div class="mock-sidebar">
+              <span class="mock-dot"></span>
+              <span class="mock-line"></span>
+              <span class="mock-line mock-line--short"></span>
+              <span class="mock-line"></span>
+              <span class="mock-line mock-line--short"></span>
+            </div>
+            <div class="mock-main">
+              <div class="mock-card mock-card--green">
+                <span class="mock-note">♪</span>
+              </div>
+              <div class="mock-rows">
+                <span class="mock-row"></span>
+                <span class="mock-row"></span>
+                <span class="mock-row mock-row--active"></span>
+                <span class="mock-row"></span>
+                <span class="mock-row"></span>
+              </div>
+              <div class="mock-player">
+                <span class="mock-play"></span>
+                <span class="mock-track"></span>
+                <span class="mock-time"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <h2 class="section-title">كل ما تحتاجه في مشغّل واحد</h2>
+        <p class="section-sub">بسيط في الشكل، عملي في الاستخدام.</p>
+        <div class="grid">
+          <article class="card">
+            <span class="card-icon">♪</span>
+            <h3>مكتبتك المحلية</h3>
+            <p>أضف ملفاتك أو مجلدات كاملة من جهازك، ويتعرّف التطبيق على العناوين والفنانين والأغلفة تلقائيًا.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">☰</span>
+            <h3>قوائم تشغيل</h3>
+            <p>نظّم أغانيك في قوائم تشغيل، أضف وأزل الأغاني، وارجع لأي قائمة بضغطة واحدة.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">↓</span>
+            <h3>بحث وتنزيل</h3>
+            <p>ابحث عن أغانيك، شغّل معاينة، ونزّلها إلى مجلد تختاره — مع أغلفة حقيقية لكل نتيجة.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">⇊</span>
+            <h3>تنزيل جماعي</h3>
+            <p>اختار عدة أغانٍ ونزّلها دفعة واحدة؛ التطبيق ينظّم الطلبات تلقائيًا في قائمة انتظار.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">◐</span>
+            <h3>ثلاثة مظاهر</h3>
+            <p>منتصف الليل، AMOLED، وضوء النهار — بدّل المظهر حسب إضاءة المكان.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">ع</span>
+            <h3>عربي بالكامل</h3>
+            <p>واجهة عربية باتجاه صحيح من اليمين لليسار، مع إمكانية التبديل إلى الإنجليزية.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="how">
+      <div class="container">
+        <h2 class="section-title">طريقة الاستخدام</h2>
+        <p class="section-sub">من التحميل إلى أول أغنية — في دقائق.</p>
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num">1</span>
+            <div>
+              <h3>نزّل ملف التثبيت</h3>
+              <p>اضغط زر التحميل بالأعلى. سيُنزّل ملف <code class="ltr">Nova Music Setup 1.0.1.exe</code> من صفحة الإصدارات على GitHub.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num">2</span>
+            <div>
+              <h3>شغّل الملف وأكمل التثبيت</h3>
+              <p>إن ظهر تحذير حماية Windows (SmartScreen)، اضغط «معلومات إضافية» ثم «تشغيل على أي حال» — التطبيق لم يُوقَّع بعد بشهادة تجارية. بعدها اختر مجلد التثبيت وأكمل.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num">3</span>
+            <div>
+              <h3>افتح التطبيق وأضف موسيقاك</h3>
+              <p>من قسم «المكتبة» اضغط «إضافة موسيقى» لاختيار ملفات، أو «إضافة مجلد» لفحص مجلد كامل تلقائيًا.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num">4</span>
+            <div>
+              <h3>أو ابحث ونزّل</h3>
+              <p>من قسم «التنزيل والبحث» اكتب اسم الأغنية، شغّل المعاينة، ثم اضغط تنزيل — أو «تحميل الكل» لتنزيل كل النتائج دفعة واحدة.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-num">5</span>
+            <div>
+              <h3>نظّم وخصّص</h3>
+              <p>أنشئ قوائم تشغيل من الشريط الجانبي، وبدّل مجلد التنزيل واللغة والمظهر من «الإعدادات».</p>
+            </div>
+          </li>
+        </ol>
+        <div class="note">
+          <b>ملاحظة:</b> التطبيق يعمل فقط على Windows 10 و11 (64-bit). التثبيت لا يحتاج إنترنت، لكن البحث والتنزيل يحتاجان اتصالًا بالشبكة.
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="download">
+      <div class="container">
+        <div class="download-card">
+          <div>
+            <h2>جاهز للتنصيب؟</h2>
+            <p class="section-sub">حمّل الإصدار الأخير لنظام Windows مباشرة من GitHub.</p>
+            <ul class="dl-facts">
+              <li><span>الإصدار</span><b id="version-label-2">1.0.1</b></li>
+              <li><span>النظام</span><b>Windows 10/11 — 64-bit</b></li>
+              <li><span>التنزيلات</span><b id="downloads-count-2">—</b></li>
+            </ul>
+          </div>
+          <div class="download-actions">
+            <a class="btn btn--primary btn--large" id="download-btn-2" href="#" rel="noopener">تحميل الآن</a>
+            <a class="btn btn--ghost" id="releases-link" href="#" rel="noopener">جميع الإصدارات</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2026</span> Nova Music</span>
+      <span class="footer-version">الإصدار <b id="version-label-3">1.0.1</b></span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
