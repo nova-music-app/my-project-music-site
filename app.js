@@ -1,8 +1,8 @@
 (() => {
   const FALLBACK_REPO = 'nova-music-app/my-project-music-site';
-  const ASSET_NAME = 'Nova-Music-Setup-1.0.2.exe';
-  const FALLBACK_VERSION = '1.0.2';
-  const CACHE_KEY = 'nova-releases-cache-v2';
+  const ASSET_NAME = 'Nova-Music-Setup-1.0.3.exe';
+  const FALLBACK_VERSION = '1.0.3';
+  const CACHE_KEY = 'nova-releases-cache-v3';
   const CACHE_TTL = 10 * 60 * 1000;
 
   const REPO = (() => {
