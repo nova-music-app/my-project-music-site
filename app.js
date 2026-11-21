@@ -1,5 +1,5 @@
 (() => {
-  const FALLBACK_REPO = 'tofahirayan-byte/my-project-music-site';
+  const FALLBACK_REPO = 'nova-music-app/my-project-music-site';
   const ASSET_NAME = 'Nova-Music-Setup-1.0.1.exe';
   const FALLBACK_VERSION = '1.0.1';
   const CACHE_KEY = 'nova-releases-cache';
@@ -9,8 +9,8 @@
     const host = location.hostname;
     if (host.endsWith('.github.io')) {
       const user = host.split('.')[0];
-      const repo = location.pathname.split('/').filter(Boolean)[0];
-      if (user && repo) return `${user}/${repo}`;
+      const repo = location.pathname.split('/').filter(Boolean)[0] || `${user}.github.io`;
+      if (user) return `${user}/${repo}`;
     }
     return FALLBACK_REPO;
   })();
