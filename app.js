@@ -16,7 +16,6 @@
   })();
 
   const downHref = `https://github.com/${REPO}/releases/latest/download/${ASSET_NAME}`;
-  const releasesHref = `https://github.com/${REPO}/releases`;
 
   function setDownloadHref(href) {
     for (const id of ['download-btn', 'download-btn-2']) {
@@ -26,8 +25,6 @@
   }
 
   setDownloadHref(downHref);
-  const releasesLink = document.getElementById('releases-link');
-  if (releasesLink) releasesLink.href = releasesHref;
 
   document.getElementById('year').textContent = String(new Date().getFullYear());
 
