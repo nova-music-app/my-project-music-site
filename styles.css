@@ -112,6 +112,7 @@ section[id] { scroll-margin-top: 84px; }
 .btn--primary:hover { background: var(--green); }
 
 .btn--primary svg { width: 20px; height: 20px; }
+.btn--ghost svg { width: 18px; height: 18px; }
 
 .btn--ghost {
   background: transparent;
@@ -448,6 +449,9 @@ section[id] { scroll-margin-top: 84px; }
 }
 
 .footer-version b { color: var(--green); }
+
+.footer-discord { color: var(--muted); }
+.footer-discord:hover { color: var(--green); }
 
 /* Responsive */
 @media (max-width: 920px) {
